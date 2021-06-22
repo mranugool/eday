@@ -1,0 +1,11 @@
+---
+application:
+  name: "eday"
+  project: "eday"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-eday"
+  routes:
+  - application_name: "eday"
+    paths:
+    - "/*"
